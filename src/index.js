@@ -15,7 +15,7 @@ async function searchImages(query, page = 1) {
         orientation: "horizontal",
         safesearch: true,
         page: page,
-        per_page: 40, 
+        per_page: 100, 
       },
     });
     return response.data;
