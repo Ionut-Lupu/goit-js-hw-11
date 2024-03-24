@@ -1,9 +1,10 @@
+
 import axios from "axios";
 import Notiflix from "notiflix";
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-const API_KEY = "43044211-edeb7fc63f627da20fc102614"; 
+const API_KEY = "42285080-c22d5f6a90f49c0ab863c2d8a"; 
 
 async function searchImages(query, page = 1) {
   try {
